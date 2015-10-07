@@ -9,4 +9,5 @@ Exemplo de uso da Parse API via Java, utilizando MVC e JSF. Demonstrado na disci
   * 1ª camada: XHTML JSF + Managed Bean
   * 2ª camada: Classe RN (que poderá ser exposta como serviço posteriormente)
   * 3ª camada: Classe BD (responsável pela persistência; neste caso, no Parse)
-  
+
+Será necessário o seu cadastro no [Parse API](https://www.parse.com/), a criação de um aplicativo e a adaptação deste projeto adicionando-se o APPLICATION_ID e o REST_KEY na configuração da classe *ParseUtil* para que seja possível a autenticação no serviço.
